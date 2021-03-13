@@ -1,4 +1,4 @@
-project "glfw"
+project "Glfw"
     kind "StaticLib"
     language "C++"
 
@@ -22,8 +22,7 @@ project "glfw"
         cppdialect "C++17"
         staticruntime "On"
 
-        files
-        {
+        files {
             "src/win32_init.c",
             "src/win32_joystick.c",
             "src/win32_monitor.c",
